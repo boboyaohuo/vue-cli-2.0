@@ -8,6 +8,8 @@ import fastclick from 'fastclick';
 import VueLazyload from 'vue-lazyload';
 import store from './store';
 
+import '@/assets/stylus/index.styl';
+
 Vue.config.productionTip = false;
 
 fastclick.attach(document.body);

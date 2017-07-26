@@ -9,20 +9,20 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to My BTCF'
+      msg: 'Welcome to BTCF'
     };
   },
   created() {
-    this.handle();
+
   },
   methods: {
-    handle () {
-      console.log(1);
-    }
   }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style  scoped lang="stylus" rel="stylesheet/stylus">
+  .hello
+    text-align center
+    margin-top 60px
 </style>
