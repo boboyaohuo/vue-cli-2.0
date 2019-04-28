@@ -1,8 +1,8 @@
 {
-  "name": "btcf",
+  "name": "vue2.0",
   "version": "1.0.0",
-  "description": "btcf vue webapp",
-  "author": "波 <wujb@angelyeast.com>",
+  "description": "vue webapp",
+  "author": "波",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
