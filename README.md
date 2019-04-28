@@ -1,6 +1,6 @@
-# btcf
+# vue2.0
 
-> btcf vue webapp
+> vue2.0 vue webapp
 
 ## Build Setup
 
