@@ -1,6 +1,8 @@
-# vue2.0
+# vue-cli-2.0
 
-> vue2.0 vue webapp
+> A Vue.js project
+
+vue-cli 2.0解读 http://blog.csdn.net/hongchh/article/details/55113751
 
 ## Build Setup
 
@@ -17,3 +19,5 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

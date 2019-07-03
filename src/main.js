@@ -4,19 +4,26 @@ import 'babel-polyfill';
 import Vue from 'vue';
 import App from './App';
 import router from './router';
-import fastclick from 'fastclick';
 import VueLazyload from 'vue-lazyload';
 import store from './store';
-
 import '@/assets/stylus/index.styl';
 
 Vue.config.productionTip = false;
 
-fastclick.attach(document.body);
+// 开启vue网页调试
+if (process.env.NODE_ENV === 'development') {
+  Vue.config.devtools = true;
+} else {
+  Vue.config.devtools = false;
+};
 
 Vue.use(VueLazyload, {
-  // loading: require('common/image/default.png')
+  preLoad: 1.5,
+  attempt: 10
 });
+
+// 设置eventBus传值
+window.eventBus = new Vue();
 
 /* eslint-disable no-new */
 new Vue({

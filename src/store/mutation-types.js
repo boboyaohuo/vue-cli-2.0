@@ -1,0 +1,5 @@
+export const SET_TOKEN = 'SET_TOKEN';
+
+export const SET_COURSE_ORDER_CHANGE = 'SET_COURSE_ORDER_CHANGE';
+
+export const SET_STORE_NUMBER = 'SET_STORE_NUMBER';
